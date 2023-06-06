@@ -1,0 +1,144 @@
+.mainDiv {
+  display: flex;
+}
+.leftDiv {
+  width: 80%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+    url("https://i.ytimg.com/vi/yQbJRGs0fy8/maxresdefault.jpg") center;
+}
+
+.RightDiv {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-color: #02023c;
+}
+
+.circleDiv {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border: 5px solid white;
+  border-radius: 50%;
+  top: 250px;
+  left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+}
+
+.questionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80%;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 15px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.answersDiv {
+  position: absolute;
+
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 20px;
+}
+
+.answersChildDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answersChildDiv > div {
+  width: 475px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+}
+
+.itsname:hover {
+  background-color: blue;
+}
+.checkanswer {
+  background-color: blue;
+}
+.correctanswer {
+  background-color: greenyellow;
+}
+
+.wronganswer {
+  background-color: red;
+}
+
+.stepDiv {
+  display: flex;
+
+  gap: 30px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.h1Price {
+  position: absolute;
+  left: 70px;
+  color: white;
+}
+
+.h1Number {
+  color: aliceblue;
+  font-size: 32px;
+  font-family: system-ui;
+}
+
+.testdiv {
+  width: 200px;
+  height: 200px;
+}
+
+.gameOverDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+}
+.gameOverDiv1 {
+  top: 45%;
+  color: red;
+  width: 500px;
+}
+
+.addedClassName {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  margin-left: 30px;
+  background-color: greenyellow;
+  width: 250px;
+}
